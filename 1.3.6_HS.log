@@ -1,0 +1,40 @@
+# IPython log file
+
+# Hardit Sandhu
+import random
+
+#15
+def roll_two_dice(): # combines random rolls from two dice and prints
+    return(random.randint(1,6) + random.randint(1,6)) 
+
+#16 
+def guess_letter(): # grabs a random letter from the alphabet
+    j ="abcdefghijklmnopqrstuvwxyz" 
+    return(j[random.randint(0,26)]) # returns that letter
+# Fri, 19 Feb 2021 21:22:08
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 21:22:09
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 21:22:10
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 21:22:13
+# Hardit Sandhu 1.3.6 IPython log# Fri, 19 Feb 2021 21:22:18
+roll_two_dice()#[Out]# 8
+# Fri, 19 Feb 2021 21:22:28
+roll_two_dice()#[Out]# 7
+# Fri, 19 Feb 2021 21:22:35
+guess_letter()#[Out]# 'e'
+# Fri, 19 Feb 2021 21:22:37
+guess_letter()#[Out]# 'o'
+# Fri, 19 Feb 2021 21:23:53
+# Hardit Sandhu
+import random
+
+#15
+def roll_two_dice(): # combines random rolls from two dice and prints
+    return(random.randint(1,6) + random.randint(1,6)) 
+
+#16 
+def guess_letter(): # grabs a random letter from the alphabet
+    j ="abcdefghijklmnopqrstuvwxyz" 
+    return(j[random.randint(0,26)]) # returns that letter 

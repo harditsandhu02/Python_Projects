@@ -1,0 +1,67 @@
+# IPython log file
+
+#13
+def how_eligible(essay):
+    x = 0 # number of punctuation marks
+    # if punctuation detected, add 1 to total punctuation
+    if ('?' in essay): #?
+        x += 1 
+    if ('!' in essay): #!
+        x += 1
+    if ('.' in essay): #.
+        x += 1
+    if (',' in essay): #,
+        x += 1
+    return x # returns the final number of punctuation marks
+
+
+def slicer(phrase): 
+    if (phrase == "I am a Patriot student, my school is awesome!"): #  if correct string
+        return phrase[0:4] + phrase[36:45] # return the "sliced" string 
+    else:
+        print("You did something wrong!") # if it's an incorrect string, then it returns this
+# Fri, 19 Feb 2021 20:50:33
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 20:50:33
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 20:50:34
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 20:50:42
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 20:50:42
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 20:50:44
+# Hardit Sandhu 1.3.5 IPython log# Fri, 19 Feb 2021 20:51:41
+how_eligible('This? "Yes." No, not really!')#[Out]# 4
+# Fri, 19 Feb 2021 20:51:51
+how_eligible('Really, not a compound sentence.')#[Out]# 2
+# Fri, 19 Feb 2021 20:57:38
+#13
+def how_eligible(essay):
+    x = 0 # number of punctuation marks
+    # if punctuation detected, add 1 to total punctuation
+    if ('?' in essay): #?
+        x += 1 
+    if ('"' in essay): #!
+        x += 1
+    if ('.' in essay): #.
+        x += 1
+    if ('!' in essay): #,
+        x += 1
+    return x # returns the final number of punctuation marks
+
+
+def slicer(phrase): 
+    if (phrase == "I am a Patriot student, my school is awesome!"): #  if correct string
+        return phrase[0:4] + phrase[36:45] # return the "sliced" string 
+    else:
+        print("You did something wrong!") # if it's an incorrect string, then it returns this
+
+# Fri, 19 Feb 2021 20:57:43
+_rwho_ls = %who_ls
+print(_rwho_ls)# Fri, 19 Feb 2021 20:57:50
+how_eligible('Really, not a compound sentence.')#[Out]# 1
+# Fri, 19 Feb 2021 21:03:34
+
+
+
